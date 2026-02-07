@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:grocery/View/auth/register/ui.dart';
+import 'package:grocery/View/auth/login/ui.dart';
 
-class LoginScreen extends StatefulWidget {
-  const LoginScreen({super.key});
+class RegisterPages extends StatefulWidget {
+  const RegisterPages({super.key});
 
   @override
-  State<LoginScreen> createState() => _LoginScreenState();
+  State<RegisterPages> createState() => _RegisterPagesState();
 }
 
-class _LoginScreenState extends State<LoginScreen> {
+class _RegisterPagesState extends State<RegisterPages> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -26,24 +26,45 @@ class _LoginScreenState extends State<LoginScreen> {
                   height: 53,
                 ),
               ),
-              const SizedBox(height: 50),
-              Center(
-                child: Image.asset(
-                  "assets/images/Illustrator.png",
-                  width: 160,
-                  height: 153,
-                ),
-              ),
-              const SizedBox(height: 50),
+
+
+              const SizedBox(height: 30),
               Text(
-                "Login",
+                "Register",
                 style: const TextStyle(
                   fontWeight: FontWeight.w600,
                   fontSize: 24,
                   color: Color(0xff55AB60),
                 ),
               ),
+
               const SizedBox(height: 20),
+              Padding(
+                padding: const EdgeInsets.symmetric(vertical: 10.0),
+                child: Text(
+                  "Name",
+                  style: const TextStyle(
+                    fontWeight: FontWeight.w700,
+                    fontSize: 18,
+                    color: Color(0xff14171F),
+                  ),
+                ),
+              ),
+              TextField(
+                decoration: InputDecoration(
+                  labelText: "Enter Your Name",
+                  contentPadding: const EdgeInsets.symmetric(
+                    vertical: 16.0,
+                    horizontal: 20.0,
+                  ),
+                  border: OutlineInputBorder(
+                    borderRadius: BorderRadius.circular(12.0),
+                  ),
+                ),
+              ),
+
+
+
               Padding(
                 padding: const EdgeInsets.symmetric(vertical: 10.0),
                 child: Text(
@@ -67,7 +88,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   ),
                 ),
               ),
-        
+
               const SizedBox(height: 20),
               Padding(
                 padding: const EdgeInsets.symmetric(vertical: 10.0),
@@ -92,7 +113,63 @@ class _LoginScreenState extends State<LoginScreen> {
                   ),
                 ),
               ),
-              const SizedBox(height: 40),
+
+              const SizedBox(height: 20),
+              Padding(
+                padding: const EdgeInsets.symmetric(vertical: 10.0),
+                child: Text(
+                  "Confirm Password",
+                  style: const TextStyle(
+                    fontWeight: FontWeight.w700,
+                    fontSize: 18,
+                    color: Color(0xff14171F),
+                  ),
+                ),
+              ),
+              TextField(
+                decoration: InputDecoration(
+                  labelText: "Confirm Your Password",
+                  contentPadding: const EdgeInsets.symmetric(
+                    vertical: 16.0,
+                    horizontal: 20.0,
+                  ),
+                  border: OutlineInputBorder(
+                    borderRadius: BorderRadius.circular(12.0),
+                  ),
+                ),
+              ),
+
+
+
+
+
+
+              const SizedBox(height: 20),
+              Padding(
+                padding: const EdgeInsets.symmetric(vertical: 10.0),
+                child: Text(
+                  "Contact Number",
+                  style: const TextStyle(
+                    fontWeight: FontWeight.w700,
+                    fontSize: 18,
+                    color: Color(0xff14171F),
+                  ),
+                ),
+              ),
+              TextField(
+                decoration: InputDecoration(
+                  labelText: "Enter Your Contact Number",
+                  contentPadding: const EdgeInsets.symmetric(
+                    vertical: 16.0,
+                    horizontal: 20.0,
+                  ),
+                  border: OutlineInputBorder(
+                    borderRadius: BorderRadius.circular(12.0),
+                  ),
+                ),
+              ),
+
+              const SizedBox(height: 30),
               Padding(
                 padding: const EdgeInsets.all(8.0),
                 child: Container(
@@ -109,7 +186,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     children: const [
                       Center(
                         child: Text(
-                          "Login",
+                          "Register",
                           style: TextStyle(
                             color: Colors.white,
                             fontSize: 22,
@@ -121,17 +198,17 @@ class _LoginScreenState extends State<LoginScreen> {
                   ),
                 ),
               ),
-              const SizedBox(height: 20),
+              const SizedBox(height: 15),
               Center(
                 child: Text(
                   "Or continue with",
                   style: TextStyle(fontSize: 18, fontWeight: FontWeight.w600),
                 ),
               ),
-              const SizedBox(height: 20),
-              SizedBox(height: 20),
-        
-        
+
+              SizedBox(height: 15),
+
+
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
@@ -162,8 +239,8 @@ class _LoginScreenState extends State<LoginScreen> {
                       ],
                     ),
                   ),
-        
-        
+
+
                   Container(
                     padding: const EdgeInsets.symmetric(vertical: 12, horizontal: 20),
                     decoration: BoxDecoration(
@@ -195,22 +272,22 @@ class _LoginScreenState extends State<LoginScreen> {
               ),
 
               SizedBox(height: 20),
-        
+
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Text(
-                    "Don’t have an account?",
+                    "Already Have an Account?",
                     style: TextStyle(fontSize: 18, fontWeight: FontWeight.w600),
                   ),
                   SizedBox(width: 4),
                   InkWell(
                     hoverColor: Colors.transparent,
                     onTap: () {
-                      Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => RegisterPages(),));
+                      Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => LoginScreen(),));
                     },
                     child: Text(
-                      "Register here",
+                      "Login",
                       style: TextStyle(
                         fontSize: 18,
                         fontWeight: FontWeight.w600,
