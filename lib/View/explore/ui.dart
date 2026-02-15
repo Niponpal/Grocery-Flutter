@@ -120,7 +120,6 @@ class _ExploreScreenViewState extends State<ExploreScreenView> {
                   },
                 ),
               ),
-          
               SizedBox(height: 15,),
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -131,7 +130,6 @@ class _ExploreScreenViewState extends State<ExploreScreenView> {
                 ],
               ),
               SizedBox(height: 15,),
-          
               SizedBox(
                 height: 175,
                 child: ListView.builder(
@@ -220,7 +218,6 @@ class _ExploreScreenViewState extends State<ExploreScreenView> {
                   },
                 ),
               ),
-          
               SizedBox(height: 15,),
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -231,7 +228,6 @@ class _ExploreScreenViewState extends State<ExploreScreenView> {
                 ],
               ),
               SizedBox(height: 15,),
-          
               SizedBox(
                 height: 175,
                 child: ListView.builder(
@@ -330,7 +326,6 @@ class _ExploreScreenViewState extends State<ExploreScreenView> {
                 ],
               ),
               SizedBox(height: 15,),
-          
               SizedBox(
                 height: 175,
                 child: ListView.builder(
@@ -419,7 +414,6 @@ class _ExploreScreenViewState extends State<ExploreScreenView> {
                   },
                 ),
               ),
-
               SizedBox(height: 15,),
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -430,7 +424,6 @@ class _ExploreScreenViewState extends State<ExploreScreenView> {
                 ],
               ),
               SizedBox(height: 15,),
-
               SizedBox(
                 height: 175,
                 child: ListView.builder(

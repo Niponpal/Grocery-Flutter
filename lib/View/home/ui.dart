@@ -54,8 +54,6 @@ class _HomeScreenState extends State<HomeScreen> {
                 children: [
                   Text("Top Categories",style: TextStyle(fontWeight: FontWeight.w800,fontSize: 20,),),
                   Text("Explore all",style: TextStyle(fontWeight: FontWeight.w600,fontSize: 16,color: Color(0xff55AB60)),),
-          
-          
                 ],
               ),
               SizedBox(height: 15,),
@@ -177,7 +175,6 @@ class _HomeScreenState extends State<HomeScreen> {
                   },
                 ),
               ),
-
               SizedBox(height: 15,),
               Container(
                 height: 150,
@@ -192,7 +189,6 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
               ),
               SizedBox(height: 15,),
-
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
@@ -202,7 +198,6 @@ class _HomeScreenState extends State<HomeScreen> {
                 ],
               ),
               SizedBox(height: 15,),
-
               SizedBox(
                 height: 220,
                 child: ListView.builder(
@@ -259,7 +254,6 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
               ),
               SizedBox(height: 15,),
-
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
@@ -268,7 +262,6 @@ class _HomeScreenState extends State<HomeScreen> {
 
                 ],
               ),
-
               SizedBox(
                 height: 210,
                 child: ListView.builder(
@@ -337,7 +330,6 @@ class _HomeScreenState extends State<HomeScreen> {
                   },
                 ),
               ),
-
               SizedBox(height: 35,),
 
             ],
@@ -345,7 +337,6 @@ class _HomeScreenState extends State<HomeScreen> {
         )
 
       ),
-
     );
   }
 }
