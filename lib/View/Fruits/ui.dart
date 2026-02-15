@@ -55,160 +55,175 @@ class _FruitsScreenState extends State<FruitsScreen> {
                     childAspectRatio: 0.909955,
                   ),
                   itemBuilder: (context, index) {
-                    return Container(
-                      decoration: BoxDecoration(
-                        color: Color(0xffF2FCF4),
-                        borderRadius: BorderRadius.circular(10),
-                      ),
-                      child: Column(
-                        children: [
-                          SizedBox(height: 15),
-                          Padding(
-                            padding:
-                            const EdgeInsets.symmetric(horizontal: 8.0),
-                            child: Image.asset(
-                              "assets/images/Tata.png",
-                              height: 100,
-                              width: 110,
-                              fit: BoxFit.cover,
-                            ),
+                    return Stack(
+                      children: [
+                        Container(
+                          decoration: BoxDecoration(
+                            color: Color(0xffF2FCF4),
+                            borderRadius: BorderRadius.circular(10),
                           ),
-                          SizedBox(height: 10),
-                          Padding(
-                            padding: const EdgeInsets.symmetric(
-                                vertical: 6.0, horizontal: 2),
-                            child: Column(
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: [
-                                Row(
-                                  children: [
-                                    Text(
-                                      "Banana",
-                                      style: TextStyle(
-                                          fontWeight: FontWeight.w800,
-                                          fontSize: 19),
-                                    ),
-                                    SizedBox(width: 8),
-                                    Text(
-                                      "(1Kg)",
-                                      style: TextStyle(
-                                          fontWeight: FontWeight.w900,
-                                          fontSize: 19),
-                                    ),
-                                  ],
+                          child: Column(
+                            children: [
+                              SizedBox(height: 15),
+                              Padding(
+                                padding:
+                                const EdgeInsets.symmetric(horizontal: 8.0),
+                                child: Image.asset(
+                                  "assets/images/Tata.png",
+                                  height: 100,
+                                  width: 110,
+                                  fit: BoxFit.cover,
                                 ),
-                                SizedBox(height: 10),
-                                Row(
-                                  mainAxisAlignment:
-                                  MainAxisAlignment.spaceBetween,
+                              ),
+                              SizedBox(height: 10),
+                              Padding(
+                                padding: const EdgeInsets.symmetric(
+                                    vertical: 6.0, horizontal: 2),
+                                child: Column(
+                                  crossAxisAlignment: CrossAxisAlignment.start,
                                   children: [
-                                    Text(
-                                      "\$ 4",
-                                      style: TextStyle(
-                                          fontWeight: FontWeight.w800,
-                                          fontSize: 21,
-                                          color: Colors.green),
-                                    ),
                                     Row(
                                       children: [
-                                        Container(
-                                          width: 22,
-                                          height: 22,
-                                          alignment: Alignment.center,
-                                          decoration: BoxDecoration(
-                                            borderRadius:
-                                            BorderRadius.circular(15),
-                                            border:
-                                            Border.all(color: Colors.green),
-                                          ),
-                                          child: Icon(
-                                            Icons.remove,
-                                            color: Colors.green,
-                                            size: 18,
-                                          ),
-                                        ),
-                                        SizedBox(width: 4),
                                         Text(
-                                          "4",
+                                          "Banana",
                                           style: TextStyle(
                                               fontWeight: FontWeight.w800,
-                                              fontSize: 19,
-                                              color: Colors.green),
+                                              fontSize: 19),
                                         ),
-                                        SizedBox(width: 4),
-                                        Container(
-                                          width: 22,
-                                          height: 22,
-                                          alignment: Alignment.center,
-                                          decoration: BoxDecoration(
-                                            borderRadius:
-                                            BorderRadius.circular(15),
-                                            color: Colors.green,
-                                            border:
-                                            Border.all(color: Colors.green),
-                                          ),
-                                          child: Icon(
-                                            Icons.add,
-                                            color: Colors.white,
-                                            size: 18,
-                                          ),
+                                        SizedBox(width: 8),
+                                        Text(
+                                          "(1Kg)",
+                                          style: TextStyle(
+                                              fontWeight: FontWeight.w900,
+                                              fontSize: 19),
                                         ),
                                       ],
                                     ),
+                                    SizedBox(height: 10),
+                                    Row(
+                                      mainAxisAlignment:
+                                      MainAxisAlignment.spaceBetween,
+                                      children: [
+                                        Text(
+                                          "\$ 4",
+                                          style: TextStyle(
+                                              fontWeight: FontWeight.w800,
+                                              fontSize: 21,
+                                              color: Colors.green),
+                                        ),
+                                        Row(
+                                          children: [
+                                            Container(
+                                              width: 22,
+                                              height: 22,
+                                              alignment: Alignment.center,
+                                              decoration: BoxDecoration(
+                                                borderRadius:
+                                                BorderRadius.circular(15),
+                                                border:
+                                                Border.all(color: Colors.green),
+                                              ),
+                                              child: Icon(
+                                                Icons.remove,
+                                                color: Colors.green,
+                                                size: 18,
+                                              ),
+                                            ),
+                                            SizedBox(width: 4),
+                                            Text(
+                                              "4",
+                                              style: TextStyle(
+                                                  fontWeight: FontWeight.w800,
+                                                  fontSize: 19,
+                                                  color: Colors.green),
+                                            ),
+                                            SizedBox(width: 4),
+                                            Container(
+                                              width: 22,
+                                              height: 22,
+                                              alignment: Alignment.center,
+                                              decoration: BoxDecoration(
+                                                borderRadius:
+                                                BorderRadius.circular(15),
+                                                color: Colors.green,
+                                                border:
+                                                Border.all(color: Colors.green),
+                                              ),
+                                              child: Icon(
+                                                Icons.add,
+                                                color: Colors.white,
+                                                size: 18,
+                                              ),
+                                            ),
+                                          ],
+                                        ),
+                                      ],
+                                    ),
+                                    SizedBox(height: 10),
+                                    Row(
+                                      mainAxisAlignment:
+                                      MainAxisAlignment.spaceBetween,
+                                      children: [
+                                        Expanded(
+                                          child: OutlinedButton(
+                                            onPressed: () {},
+                                            style: OutlinedButton.styleFrom(
+                                              side:
+                                              BorderSide(color: Colors.green),
+                                              foregroundColor: Colors.green,
+                                              shape: RoundedRectangleBorder(
+                                                borderRadius:
+                                                BorderRadius.circular(8),
+                                              ),
+                                            ),
+                                            child: Text(
+                                              "Buy Once",
+                                              style: TextStyle(
+                                                  fontWeight: FontWeight.w800,
+                                                  fontSize: 12),
+                                            ),
+                                          ),
+                                        ),
+                                        SizedBox(width: 4),
+                                        Expanded(
+                                          child: ElevatedButton(
+                                            onPressed: () {},
+                                            style: ElevatedButton.styleFrom(
+                                              backgroundColor: Colors.green,
+                                              foregroundColor: Colors.white,
+                                              shape: RoundedRectangleBorder(
+                                                borderRadius:
+                                                BorderRadius.circular(8),
+                                              ),
+                                            ),
+                                            child: Text(
+                                              "Subscribed",
+                                              style: TextStyle(
+                                                  fontWeight: FontWeight.w800,
+                                                  fontSize: 12),
+                                            ),
+                                          ),
+                                        ),
+                                      ],
+                                    )
                                   ],
                                 ),
-                                SizedBox(height: 10),
-                                Row(
-                                  mainAxisAlignment:
-                                  MainAxisAlignment.spaceBetween,
-                                  children: [
-                                    Expanded(
-                                      child: OutlinedButton(
-                                        onPressed: () {},
-                                        style: OutlinedButton.styleFrom(
-                                          side:
-                                          BorderSide(color: Colors.green),
-                                          foregroundColor: Colors.green,
-                                          shape: RoundedRectangleBorder(
-                                            borderRadius:
-                                            BorderRadius.circular(8),
-                                          ),
-                                        ),
-                                        child: Text(
-                                          "Buy Once",
-                                          style: TextStyle(
-                                              fontWeight: FontWeight.w800,
-                                              fontSize: 12),
-                                        ),
-                                      ),
-                                    ),
-                                    SizedBox(width: 4),
-                                    Expanded(
-                                      child: ElevatedButton(
-                                        onPressed: () {},
-                                        style: ElevatedButton.styleFrom(
-                                          backgroundColor: Colors.green,
-                                          foregroundColor: Colors.white,
-                                          shape: RoundedRectangleBorder(
-                                            borderRadius:
-                                            BorderRadius.circular(8),
-                                          ),
-                                        ),
-                                        child: Text(
-                                          "Subscribed",
-                                          style: TextStyle(
-                                              fontWeight: FontWeight.w800,
-                                              fontSize: 12),
-                                        ),
-                                      ),
-                                    ),
-                                  ],
-                                )
-                              ],
-                            ),
+                              ),
+                            ],
                           ),
-                        ],
-                      ),
+                        ),
+                        Positioned(
+
+                          top: 5,
+                          right: 5,
+                          child: Icon(
+                            Icons.favorite_border_outlined,
+                            color: Colors.red,
+                            size: 28,
+                          ),
+                        ),
+
+                      ],
                     );
                   },
                 ),
