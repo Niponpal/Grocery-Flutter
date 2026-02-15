@@ -52,7 +52,7 @@ class _FruitsScreenState extends State<FruitsScreen> {
                     crossAxisCount: 2,
                     crossAxisSpacing: 10,
                     mainAxisSpacing: 10,
-                    childAspectRatio: 0.909955,
+                    childAspectRatio: 0.7100,
                   ),
                   itemBuilder: (context, index) {
                     return Stack(

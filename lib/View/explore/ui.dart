@@ -33,13 +33,13 @@ class _ExploreScreenViewState extends State<ExploreScreenView> {
               ),
               SizedBox(height: 15,),
               SizedBox(
-                height: 175,
+                height: 180,
                 child: ListView.builder(
                   scrollDirection: Axis.horizontal,
                   itemCount: 10,
                   itemBuilder: (context, index) {
                     return    Container(
-                      width: 120,
+                      width: 121,
                       color: Color(0xffF2FCF4),
                       margin: EdgeInsets.only(right: 10),
                       child: Column(
@@ -70,7 +70,7 @@ class _ExploreScreenViewState extends State<ExploreScreenView> {
                                           "Jaggery Powder",
                                           textAlign: TextAlign.center,
                                           style: TextStyle(
-                                            fontSize: 14,
+                                            fontSize: 13,
                                             color:Color(0xff656565),
                                             fontWeight: FontWeight.bold,
                                           ),
@@ -131,7 +131,7 @@ class _ExploreScreenViewState extends State<ExploreScreenView> {
               ),
               SizedBox(height: 15,),
               SizedBox(
-                height: 175,
+                height: 180,
                 child: ListView.builder(
                   scrollDirection: Axis.horizontal,
                   itemCount: 10,
@@ -168,7 +168,7 @@ class _ExploreScreenViewState extends State<ExploreScreenView> {
                                         "Jaggery Powder",
                                         textAlign: TextAlign.center,
                                         style: TextStyle(
-                                          fontSize: 14,
+                                          fontSize: 13,
                                           color:Color(0xff656565),
                                           fontWeight: FontWeight.bold,
                                         ),
@@ -229,7 +229,7 @@ class _ExploreScreenViewState extends State<ExploreScreenView> {
               ),
               SizedBox(height: 15,),
               SizedBox(
-                height: 175,
+                height: 180,
                 child: ListView.builder(
                   scrollDirection: Axis.horizontal,
                   itemCount: 10,
@@ -266,7 +266,7 @@ class _ExploreScreenViewState extends State<ExploreScreenView> {
                                         "Jaggery Powder",
                                         textAlign: TextAlign.center,
                                         style: TextStyle(
-                                          fontSize: 14,
+                                          fontSize: 13,
                                           color:Color(0xff656565),
                                           fontWeight: FontWeight.bold,
                                         ),
@@ -327,7 +327,7 @@ class _ExploreScreenViewState extends State<ExploreScreenView> {
               ),
               SizedBox(height: 15,),
               SizedBox(
-                height: 175,
+                height: 180,
                 child: ListView.builder(
                   scrollDirection: Axis.horizontal,
                   itemCount: 10,
@@ -364,7 +364,7 @@ class _ExploreScreenViewState extends State<ExploreScreenView> {
                                         "Jaggery Powder",
                                         textAlign: TextAlign.center,
                                         style: TextStyle(
-                                          fontSize: 14,
+                                          fontSize: 13,
                                           color:Color(0xff656565),
                                           fontWeight: FontWeight.bold,
                                         ),
@@ -425,7 +425,7 @@ class _ExploreScreenViewState extends State<ExploreScreenView> {
               ),
               SizedBox(height: 15,),
               SizedBox(
-                height: 175,
+                height: 180,
                 child: ListView.builder(
                   scrollDirection: Axis.horizontal,
                   itemCount: 10,
@@ -459,10 +459,10 @@ class _ExploreScreenViewState extends State<ExploreScreenView> {
                                     crossAxisAlignment: CrossAxisAlignment.start,
                                     children: [
                                       Text(
-                                        "Jaggery Powder",
+                                        "Jaggery powder",
                                         textAlign: TextAlign.center,
                                         style: TextStyle(
-                                          fontSize: 14,
+                                          fontSize: 13,
                                           color:Color(0xff656565),
                                           fontWeight: FontWeight.bold,
                                         ),

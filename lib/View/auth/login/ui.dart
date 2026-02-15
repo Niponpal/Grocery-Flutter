@@ -136,7 +136,7 @@ class _LoginScreenState extends State<LoginScreen> {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Container(
-                    padding: const EdgeInsets.symmetric(vertical: 12, horizontal: 20),
+                    padding: const EdgeInsets.symmetric(vertical: 12, horizontal: 4),
                     decoration: BoxDecoration(
                       color: Colors.white,
                       borderRadius: BorderRadius.circular(12),
@@ -146,15 +146,15 @@ class _LoginScreenState extends State<LoginScreen> {
                       children: [
                         Image.asset(
                           'assets/images/Facebook.png',
-                          height: 26,
-                          width: 24,
+                          height: 20,
+                          width: 20,
                           fit: BoxFit.fill,
                         ),
-                        const SizedBox(width: 12),
+                        const SizedBox(width: 4),
                         const Text(
                           "Sign in with Google",
                           style: TextStyle(
-                            fontSize: 17,
+                            fontSize: 14,
                             fontWeight: FontWeight.w700,
                             color: Colors.black,
                           ),
@@ -175,15 +175,15 @@ class _LoginScreenState extends State<LoginScreen> {
                       children: [
                         Image.asset(
                           'assets/images/Google.png',
-                          height: 26,
-                          width: 24,
+                          height: 20,
+                          width: 20,
                           fit: BoxFit.fill,
                         ),
-                        const SizedBox(width: 12),
+                        const SizedBox(width: 4),
                         const Text(
                           "Sign in with Google",
                           style: TextStyle(
-                            fontSize: 17,
+                            fontSize: 14,
                             fontWeight: FontWeight.w700,
                             color: Colors.black,
                           ),
@@ -193,6 +193,8 @@ class _LoginScreenState extends State<LoginScreen> {
                   ),
                 ],
               ),
+
+
 
               SizedBox(height: 20),
         
