@@ -8,12 +8,13 @@ import 'package:grocery/View/details/ui.dart';
 import 'package:grocery/View/home/ui.dart';
 
 import 'View/explore/ui.dart';
+import 'View/mysubscription/ui.dart';
 
 void main (){
   runApp(
     MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: RegisterPages(),
+      home: SubscriptionScreen(),
     )
   );
 }
