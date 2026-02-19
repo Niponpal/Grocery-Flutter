@@ -85,8 +85,6 @@ class _SubscriptionScreenState extends State<SubscriptionScreen> {
                     ],
                   ),
                   SizedBox(height: 20),
-
-
                   Expanded(
                     child: ListView.builder(
                       itemCount: 10,
@@ -217,11 +215,10 @@ class _SubscriptionScreenState extends State<SubscriptionScreen> {
                       },
                     ),
                   ),
-
                   SizedBox(height: 18,),
                   Center(child: Image.asset("assets/images/sbuscription.png",width: 216,height: 100,))  ,
-                SizedBox(height: 8,),
-                Padding(
+                 SizedBox(height: 8,),
+                 Padding(
                   padding: const EdgeInsets.all(4.0),
                   child: Text("Excited to serve you the best quality",style: TextStyle(color: Colors.grey,fontWeight: FontWeight.w700,fontSize: 20),),
                 )
@@ -231,9 +228,6 @@ class _SubscriptionScreenState extends State<SubscriptionScreen> {
 
             ),
           ),
-
-
-
 
 
         ],
