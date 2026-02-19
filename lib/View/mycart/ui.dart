@@ -27,7 +27,6 @@ class _MyCartScreenState extends State<MyCartScreen> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-
             Padding(
               padding: const EdgeInsets.all(16.0),
               child: Row(
@@ -49,7 +48,6 @@ class _MyCartScreenState extends State<MyCartScreen> {
                 ],
               ),
             ),
-
 
             Expanded(
               child: Container(
@@ -100,7 +98,8 @@ class _MyCartScreenState extends State<MyCartScreen> {
                                 const SizedBox(width: 12),
                                 Expanded(
                                   child: Column(
-                                    crossAxisAlignment: CrossAxisAlignment.start,
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.start,
                                     children: [
                                       const Text(
                                         "Amul Gold Milk",
@@ -193,7 +192,6 @@ class _MyCartScreenState extends State<MyCartScreen> {
               ),
             ),
 
-
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               spacing: 2,
@@ -205,7 +203,7 @@ class _MyCartScreenState extends State<MyCartScreen> {
                       height: 110,
                       decoration: const BoxDecoration(
                         color: Colors.green,
-                          borderRadius: BorderRadius.all(Radius.circular(10))
+                        borderRadius: BorderRadius.all(Radius.circular(10)),
                       ),
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.center,
@@ -228,33 +226,26 @@ class _MyCartScreenState extends State<MyCartScreen> {
                           ),
                           Text(
                             "on your first order",
-                            style: TextStyle(
-                              color: Colors.white,
-                              fontSize: 13,
-                            ),
+                            style: TextStyle(color: Colors.white, fontSize: 13),
                           ),
                           Text(
                             "Use coupon code to get OFFER",
-                            style: TextStyle(
-                              color: Colors.white,
-                              fontSize: 11,
-                            ),
+                            style: TextStyle(color: Colors.white, fontSize: 11),
                           ),
                         ],
                       ),
                     ),
                     Positioned(
-                        top: -4,
-                        right: -10,
-                        child:
-                    Container(
-                      width: 20,
-                      height: 20,
-                      decoration: BoxDecoration(
-                        color: Colors.white,
-                        borderRadius: BorderRadius.circular(10)
+                      top: -4,
+                      right: -10,
+                      child: Container(
+                        width: 20,
+                        height: 20,
+                        decoration: BoxDecoration(
+                          color: Colors.white,
+                          borderRadius: BorderRadius.circular(10),
+                        ),
                       ),
-                    )
                     ),
                   ],
                 ),
@@ -266,8 +257,7 @@ class _MyCartScreenState extends State<MyCartScreen> {
                       height: 110,
                       decoration: const BoxDecoration(
                         color: Colors.green,
-                        borderRadius: BorderRadius.all(Radius.circular(10))
-
+                        borderRadius: BorderRadius.all(Radius.circular(10)),
                       ),
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.center,
@@ -288,28 +278,26 @@ class _MyCartScreenState extends State<MyCartScreen> {
                               fontWeight: FontWeight.bold,
                             ),
                           ),
-
                         ],
                       ),
                     ),
                     Positioned(
-                        top: -4,
-                        left: -10,
-                        child:
-                        Container(
-                          width: 20,
-                          height: 20,
-                          decoration: BoxDecoration(
-                              color: Colors.white,
-                              borderRadius: BorderRadius.circular(10)
-                          ),
-                        )
-                    )
+                      top: -4,
+                      left: -10,
+                      child: Container(
+                        width: 20,
+                        height: 20,
+                        decoration: BoxDecoration(
+                          color: Colors.white,
+                          borderRadius: BorderRadius.circular(10),
+                        ),
+                      ),
+                    ),
                   ],
                 ),
               ],
             ),
-            SizedBox(height: 15,),
+            SizedBox(height: 15),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               spacing: 2,
@@ -320,8 +308,8 @@ class _MyCartScreenState extends State<MyCartScreen> {
                       width: 320,
                       height: 110,
                       decoration: const BoxDecoration(
-                          color: Color(0xffD6C533),
-                          borderRadius: BorderRadius.all(Radius.circular(10))
+                        color: Color(0xffD6C533),
+                        borderRadius: BorderRadius.all(Radius.circular(10)),
                       ),
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.center,
@@ -344,33 +332,26 @@ class _MyCartScreenState extends State<MyCartScreen> {
                           ),
                           Text(
                             "on your first order",
-                            style: TextStyle(
-                              color: Colors.white,
-                              fontSize: 13,
-                            ),
+                            style: TextStyle(color: Colors.white, fontSize: 13),
                           ),
                           Text(
                             "Use coupon code to get OFFER",
-                            style: TextStyle(
-                              color: Colors.white,
-                              fontSize: 11,
-                            ),
+                            style: TextStyle(color: Colors.white, fontSize: 11),
                           ),
                         ],
                       ),
                     ),
                     Positioned(
-                        top: -4,
-                        right: -10,
-                        child:
-                        Container(
-                          width: 20,
-                          height: 20,
-                          decoration: BoxDecoration(
-                              color: Colors.white,
-                              borderRadius: BorderRadius.circular(10)
-                          ),
-                        )
+                      top: -4,
+                      right: -10,
+                      child: Container(
+                        width: 20,
+                        height: 20,
+                        decoration: BoxDecoration(
+                          color: Colors.white,
+                          borderRadius: BorderRadius.circular(10),
+                        ),
+                      ),
                     ),
                   ],
                 ),
@@ -382,8 +363,7 @@ class _MyCartScreenState extends State<MyCartScreen> {
                       height: 110,
                       decoration: const BoxDecoration(
                         color: Color(0xffD6C533),
-                          borderRadius: BorderRadius.all(Radius.circular(10))
-
+                        borderRadius: BorderRadius.all(Radius.circular(10)),
                       ),
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.center,
@@ -404,28 +384,26 @@ class _MyCartScreenState extends State<MyCartScreen> {
                               fontWeight: FontWeight.bold,
                             ),
                           ),
-
                         ],
                       ),
                     ),
                     Positioned(
-                        top: -4,
-                        left: -10,
-                        child:
-                        Container(
-                          width: 20,
-                          height: 20,
-                          decoration: BoxDecoration(
-                              color: Colors.white,
-                              borderRadius: BorderRadius.circular(10)
-                          ),
-                        )
-                    )
+                      top: -4,
+                      left: -10,
+                      child: Container(
+                        width: 20,
+                        height: 20,
+                        decoration: BoxDecoration(
+                          color: Colors.white,
+                          borderRadius: BorderRadius.circular(10),
+                        ),
+                      ),
+                    ),
                   ],
                 ),
               ],
             ),
-            SizedBox(height: 15,),
+            SizedBox(height: 15),
             Center(
               child: const Text(
                 "Promo code can be applied on\npayment screen",
@@ -433,18 +411,168 @@ class _MyCartScreenState extends State<MyCartScreen> {
                 style: TextStyle(
                   fontSize: 18,
                   fontWeight: FontWeight.w800,
-                color: Colors.green,
+                  color: Colors.green,
                   height: 1.2,
                 ),
               ),
             ),
-            SizedBox(height: 15,),
+            SizedBox(height: 15),
 
-            Text("Payment details",style: TextStyle(fontWeight: FontWeight.w900,fontSize: 23,),)
+            Padding(
+              padding: const EdgeInsets.only(left: 14.0),
+              child: Text(
+                "Payment details",
+                style: TextStyle(fontWeight: FontWeight.w900, fontSize: 23),
+              ),
+            ),
+
+            SizedBox(height: 15),
+
+
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 16.0),
+              child: Container(
+                decoration: BoxDecoration(
+                  border: Border.all(color: Colors.grey),
+                  borderRadius: BorderRadius.circular(8),
+                ),
+                child: Column(
+                  children: [
+
+                    Padding(
+                      padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 8),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: const [
+                          Text(
+                            "Total MRP",
+                            style: TextStyle(
+                              fontSize: 18,
+                              fontWeight: FontWeight.w600,
+                              color: Colors.grey,
+                            ),
+                          ),
+                          Text(
+                            "\$10.00",
+                            style: TextStyle(
+                              fontSize: 18,
+                              fontWeight: FontWeight.w600,
+                              color: Colors.grey,
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                    Divider(color: Colors.grey),
+
+
+                    Padding(
+                      padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 8),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: const [
+                          Text(
+                            "Discount",
+                            style: TextStyle(
+                              fontSize: 18,
+                              fontWeight: FontWeight.w600,
+                              color: Colors.grey,
+                            ),
+                          ),
+                          Text(
+                            "\$0.00",
+                            style: TextStyle(
+                              fontSize: 18,
+                              fontWeight: FontWeight.w600,
+                              color: Colors.grey,
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                    Divider(color: Colors.grey),
+
+
+                    Padding(
+                      padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 8),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: const [
+                          Text(
+                            "Shipping Charges",
+                            style: TextStyle(
+                              fontSize: 18,
+                              fontWeight: FontWeight.w600,
+                              color: Colors.grey,
+                            ),
+                          ),
+                          Text(
+                            "Free",
+                            style: TextStyle(
+                              fontSize: 18,
+                              fontWeight: FontWeight.w600,
+                              color: Colors.grey,
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                    Divider(color: Colors.grey),
+
+
+                    Container(
+                      padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 12),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: const [
+                          Text(
+                            "Total",
+                            style: TextStyle(
+                              fontSize: 18,
+                              fontWeight: FontWeight.w800,
+                              color: Colors.black,
+                            ),
+                          ),
+                          Text(
+                            "\$9.97",
+                            style: TextStyle(
+                              fontSize: 18,
+                              fontWeight: FontWeight.w800,
+                              color: Colors.black,
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ),
+            SizedBox(height: 10),
+
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Center(
+                child: Container(
+                  width: 220,
+                  height: 50,
+                  decoration: BoxDecoration(
+                    color: Colors.green
+                  ),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Text("Checkout",style: TextStyle(color: Colors.white,fontWeight: FontWeight.w800,fontSize: 20),),
+                    ],
+                  ),
+                ),
+              ),
+            )
+
+
           ],
         ),
       ),
-
     );
   }
 }
