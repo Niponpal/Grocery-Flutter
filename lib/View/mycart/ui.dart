@@ -63,7 +63,7 @@ class _MyCartScreenState extends State<MyCartScreen> {
                       physics: const NeverScrollableScrollPhysics(),
                       shrinkWrap: true,
                       padding: const EdgeInsets.all(16),
-                      itemCount: 14,
+                      itemCount: 4,
                       itemBuilder: (context, index) {
                         return Padding(
                           padding: const EdgeInsets.only(bottom: 12),
