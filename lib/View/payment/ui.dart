@@ -95,7 +95,7 @@ class _PaymentScreenState extends State<PaymentScreen> {
                       ),
                       style: const TextStyle(color: Colors.white),
                     ),
-                  ),
+                  ),// Email
                   Padding(
                     padding: const EdgeInsets.symmetric(vertical: 8.0),
                     child: TextField(
@@ -143,7 +143,7 @@ class _PaymentScreenState extends State<PaymentScreen> {
                       ),
                       style: const TextStyle(color: Colors.black),
                     ),
-                  ),
+                  ),// Phone
                   SizedBox(height: 15,),
                   Text(
                     "Choose Delivery Address",
@@ -152,7 +152,7 @@ class _PaymentScreenState extends State<PaymentScreen> {
                       fontSize: 20,
                       fontWeight: FontWeight.w800,
                     ),
-                  ),
+                  ),// Choose Delivery Address
                   SizedBox(height: 15,),
                 ],
               ),
