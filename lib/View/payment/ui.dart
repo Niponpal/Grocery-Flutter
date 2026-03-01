@@ -47,7 +47,7 @@ class _PaymentScreenState extends State<PaymentScreen> {
                       fontSize: 20,
                       fontWeight: FontWeight.w800,
                     ),
-                  ),
+                  ),// Contact Details
                   Padding(
                     padding: const EdgeInsets.symmetric(vertical: 8.0),
                     child: TextField(
@@ -63,7 +63,7 @@ class _PaymentScreenState extends State<PaymentScreen> {
                       ),
                       style: const TextStyle(color: Colors.white),
                     ),
-                  ),
+                  ),// First Name
                   Padding(
                     padding: const EdgeInsets.symmetric(vertical: 8.0),
                     child: TextField(
@@ -79,7 +79,7 @@ class _PaymentScreenState extends State<PaymentScreen> {
                       ),
                       style: const TextStyle(color: Colors.white),
                     ),
-                  ),
+                  ),// Last Name
                   Padding(
                     padding: const EdgeInsets.symmetric(vertical: 8.0),
                     child: TextField(
